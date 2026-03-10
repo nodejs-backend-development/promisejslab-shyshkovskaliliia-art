@@ -9,8 +9,7 @@
  */
 function tryCatchPromise(fn, ...args) {
     try{
-        const result = fn(...args);
-        return Promise.resolve(result);
+        return Promise.resolve(fn(...args));
     } catch(error){
         return Promise.reject(error);
     }
