@@ -1,0 +1,14 @@
+{
+  "name": "csv-server-lab",
+  "version": "1.0.0",
+  "description": "CSV to JSON stream server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "split2": "^4.2.0",
+    "through2": "^4.0.2"
+  }
+}
